@@ -64,7 +64,7 @@ function ChatBox(props) {
     return (
         <div>
             <div className='d-flex align-items-center'>
-                <Col md={11} className='text-danger'><h1 className='ms-5'>SELUKA</h1></Col>
+                <Col md={11} className='text-danger'><h1 className='ms-5'>Chat Online</h1></Col>
                 <Col md={1}>
                     <OverlayTrigger placement='auto' overlay={<Tooltip>{profileInfo.name}</Tooltip>}>
                         <h2 className='text-center m-0 bg-transparent me-2 border rounded-circle' style={{ color: profileInfo.color, width: '2.5rem', cursor: 'pointer' }}>{profileInfo.logo}</h2>
